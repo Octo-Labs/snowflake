@@ -1551,12 +1551,12 @@
 			width: 1%;
 		}
 
-		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -o-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+		#banner-no:after {
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
+			background-image: -o-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -1575,11 +1575,14 @@
 			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
+      padding-top:0px !important;
 		}
 
 			#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
+        background: rgba(55,55,55,0.85);
+        padding: 5px 20px 10px;
 			}
 
 				#banner .content header h2 {
