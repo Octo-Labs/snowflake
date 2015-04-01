@@ -1009,8 +1009,12 @@
 		white-space: nowrap;
 		width: 10em;
 		z-index: 1;
+    background: rgba(55,55,55,0.25);
 	}
 
+  .goto-next:hover{
+    background: rgba(55,55,55,0.55);
+  }
 		.goto-next:before {
 			background-image: url("images/arrow.svg");
 			background-position: center center;
